@@ -27,10 +27,14 @@ article {
 }
 
 #title {
-    font-family:verdana;
-    background: #2a2a2a;
+    font-family: monospace;
+    background: #2d70b3;
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
     color: #ddd;
+}
+
+.dcg-noedit-branding {
+    visibility: hidden;
 }
