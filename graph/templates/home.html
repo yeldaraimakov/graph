@@ -17,10 +17,11 @@
     <link rel="stylesheet" href="{% static "css/" %}home.css"/>
 </head>
 <body>
-	<h3 id="title">Draw a graph of several functions easily and quickly with FunGraph</h3>
-
-    <div id="calculator"></div>
-
+	<div class="main">
+		<h3 id="title">FunGraph көмегімен бірнеше функцияның графигін оңай әрі тез салыңыз</h3>
+	    <div id="calculator"></div>
+	    <div id="made-by">Programmed by Nurdaulet</div>
+	</div>
     <script>
       var elt = document.getElementById('calculator');
       var calculator = Desmos.GraphingCalculator(elt);
